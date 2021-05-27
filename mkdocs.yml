@@ -1,0 +1,15 @@
+site_name: ibm-cloud-garage-training
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: black
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  language: en
+extra_css:
+  - css/navfix.css
+plugins:
+  - search
+  - awesome-pages
