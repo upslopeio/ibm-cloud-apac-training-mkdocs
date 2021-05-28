@@ -1,6 +1,10 @@
-site_name: ibm-cloud-garage-training
+site_name: ibm-cloud-apac-training
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
   palette:
     scheme: default
     primary: black
@@ -8,8 +12,3 @@ theme:
     text: IBM Plex Sans
     code: IBM Plex Mono
   language: en
-extra_css:
-  - css/navfix.css
-plugins:
-  - search
-  - awesome-pages
